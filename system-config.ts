@@ -11,6 +11,7 @@ const barrels: string[] = [
   'rxjs',
   // App specific barrels.
   'components',
+  'services'
 ];
 const systemConfigPackages: any = {};
 barrels.forEach(function (barrelName) {
